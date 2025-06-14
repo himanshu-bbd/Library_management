@@ -46,8 +46,15 @@ Login as admin grants access to additional management features:
 ---
 
 ## 🗂 Project Structure
-
-
+- LibraryManagementSystem
+  - Manager
+    - LibraryManager.java **(Handles core operations)**
+    - LoginManager.java **(Manages login and registration logic)**
+  - Model
+    - Book.java **(Book entity with attributes and methods)**
+    - User.java **(User entity: admin/user, borrowed books, etc.)**
+  - Main.java **(Entry point for app flow)**
+  - README.md **(Project documentation)**
 ---
 
 ## 🗂 Sample Book Table  
